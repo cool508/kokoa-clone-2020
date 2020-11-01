@@ -353,3 +353,8 @@ template {
 input:focus {
   outline: none;
 }
+
+a {
+  color: initial;
+  text-decoration: none;
+}
