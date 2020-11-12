@@ -6,9 +6,11 @@
 @import "../css/components/nav-bar.css";
 @import "../css/components/screen-header.css";
 @import "../css/components/user-component.css";
+@import "../css/components/badge.css";
 /* Screens */
 @import "../css/screens/login.css";
 @import "../css/screens/friends.css";
+@import "../css/screens/find.css";
 body {
   color: #2e363e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -16,4 +18,7 @@ body {
 }
 li {
   list-style: none;
+}
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
